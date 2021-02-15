@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Shital Adhikari"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **boring** person."
+  bio              : ""
   location         : "Somewhere in the blue pale dot."
   email            :
   links:
@@ -279,3 +279,4 @@ defaults:
       comments: # true
       share: true
       related: true
+  # -pa
