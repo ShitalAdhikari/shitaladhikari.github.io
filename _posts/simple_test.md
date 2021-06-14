@@ -1,1 +1,2 @@
-# sample test
+# Variance of Uniformly Distributed Noise
+
