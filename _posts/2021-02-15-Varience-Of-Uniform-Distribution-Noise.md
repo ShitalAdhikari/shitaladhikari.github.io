@@ -1,19 +1,11 @@
+---
+title: "Variance of Uniform distribution"
+excerpt_separator: "Calculating variance of uniformly distributed noise."
+author: Shital Adhikari
+---
+
 
 # Finding the Variance of uniform filter
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
-
 ![](https://www.researchgate.net/profile/Anantkumar-Pimpale/publication/316525043/figure/fig1/AS:487799678869504@1493311914825/PDF-for-Uniform-noise.png)
 
 $E(\bar{X}) = \frac{a+b}{2}$
