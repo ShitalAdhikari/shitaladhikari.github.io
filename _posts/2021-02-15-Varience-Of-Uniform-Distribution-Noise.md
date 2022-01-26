@@ -2,6 +2,8 @@
 title: "Variance of Uniform distribution"
 excerpt_separator: "Calculating variance of uniformly distributed noise."
 author: Shital Adhikari
+sidebar:
+    - title: "Shital"
 ---
 
 
