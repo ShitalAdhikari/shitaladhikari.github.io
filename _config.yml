@@ -145,6 +145,7 @@ footer:
 include:
   - .htaccess
   - _posts
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -279,4 +280,10 @@ defaults:
       comments: # true
       share: true
       related: true
-  # -pa
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
