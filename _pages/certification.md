@@ -16,7 +16,7 @@ permalink: /certification/
 
 ---
 
-## [Hands-on Intdocution to Linux Commands](https://www.coursera.org/account/accomplishments/verify/FKSJ3YQ2CZJU)
+## [Hands-on Intdocution to Linux Commands](https://coursera.org/share/24296657125d8620173a53a7a5aa5dd8)
 
 ![linux Commands](/uploads/slider/linux_commands.png)
 
