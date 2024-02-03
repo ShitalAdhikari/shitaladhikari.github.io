@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Other Article"
-    url: /others/
   - title: "About"
     url: /about/
   - title: "Certification"

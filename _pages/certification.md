@@ -30,4 +30,4 @@ permalink: /certification/
    
 ## [Supervised Machine Learning: Regression and Classification](https://coursera.org/share/c37251ebdb1a8f98f9b4f2142adb00e4)
 
-![Supervised ML](/uploads/slider/Supervised Machine Learning: Regression and Classification.png)
+![Supervised ML](/uploads/slider/supervised_machine_learning.png)
