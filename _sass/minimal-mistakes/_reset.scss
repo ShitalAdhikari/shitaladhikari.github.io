@@ -8,18 +8,18 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  font-size: 10px;
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 14px;
   }
 
   -webkit-text-size-adjust: 100%;
@@ -113,7 +113,7 @@ sub {
 
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
-  max-width: 100%; /* part 1: Set a maximum relative to the parent*/
+  max-width: 50%; /* part 1: Set a maximum relative to the parent*/
   width: auto\9; /* IE7-8 need help adjusting responsive images*/
   height: auto; /* part 2: Scale the height according to the width, otherwise you get stretching*/
 
