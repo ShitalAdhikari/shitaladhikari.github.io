@@ -20,13 +20,13 @@ header:
 
 When the energy travels from its source (A) to the target (C), it will come in contact with the atmosphere (B) and then reflect back to hit the satellite (D) through the atmosphere. The satellite has some sensors to record the electromagnetic radiation which is then transmitted to the processing station (E) and is processed into an image. Thus the created image can be interpreted and analysed at (F) to extract information about the target which was illuminated. And ultimately applied to better understand it, reveal some new information, or assist in solving a particular problem.
 
-![remote sensing]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image5.png)
+![remote sensing]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image5.png)
 
 ### Electromagnetic Radiation and Spectrum
 
 Electromagnetic radiation consists of an _electrical field (E)_ and _magnetic field (M)_. E varies in magnitude perpendicular to the direction in which the radiation travels and M at right angles to the electrical field as shown in figure below.
 
-![remote sensing]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image1.png)
+![remote sensing]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image1.png)
 
 _[Image source: depts.washington.edu](https://depts.washington.edu/cmditr/modules/lum/400px-Emwavepropagation.jpg)_
 
@@ -56,7 +56,7 @@ Scattering occurs when electromagnetic radiation is redirected from its original
 
 **Absorption** is the other main mechanism that occurs when electromagnetic radiation interacts with the atmosphere. Ozone, carbon dioxide, and water vapour are the three main atmospheric constituents which absorb radiation. As these gases absorb energy in very specific regions of the spectrum, those areas that are not influenced by this absorption, which are useful in remote sensing, are called atmospheric windows.
 
-![remote sensing]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image2.png)
+![remote sensing]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image2.png)
 
 ### Radiation - Target Interaction
 
@@ -65,13 +65,13 @@ Radiation that is not absorbed or scattered in the atmosphere interacts with the
 Some examples are:
 _Vegetation_: Chlorophyll strongly absorbs radiation in the red and blue wavelength but reflects green wavelengths. Also the healthy leaves act as excellent diffuse reflectors of near-infrared wavelengths which can be used to classify the vegetation as healthy or not.
 
-![remote sensing]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image6.png)
+![remote sensing]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image6.png)
 
 As we can see in the figure, water and vegetation reflect somewhat similar visible wavelengths but are almost separable in the infrared region.
 
 Similarly if we want to distinguish deciduous and coniferous trees, we would go for the near-IR region as they are separable in that region.
 
-![remote sensing]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image3.png)
+![remote sensing]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/image3.png)
 
 ### Bands
 
@@ -95,7 +95,7 @@ Spectral resolution describes the ability of the sensor to define fine wavelengt
 ### Radiometric Resolution
 Radiometric Resolution is similar to the number of quantization bits. Higher the radiometric resolution, more accurately the sensor data can be represented in an image with a distinct value. If we use 8-bit quantisation, then we can represent the given pixel using digital value between 0 to 255. Similarly if we use 2-bit quantisation, it would be between 0 to 3. A comparison between these can be seen in the figure below:
 
-![radiometric]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/radiometric.png)
+![radiometric]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Introduction_to_Remote_sensing/radiometric.png)
 
 
 ### Temporal resolution

@@ -17,13 +17,13 @@ Here is a sample image and it's corresponding masks:
 
 
 <figure>
-<img src='{{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/original.jpg' width='500'>
+<img src='{{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/original.jpg' width='500'>
 <figcaption>Fig 1. Original sliced image</figcaption>
 </figure>
 
 <figure>
-<img src='{{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/mask.jpg' width='300'>
-<img src='{{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/result.png' width='300'>
+<img src='{{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/mask.jpg' width='300'>
+<img src='{{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/result.png' width='300'>
 <figcaption>Fig 2. Masks of houses (left) and result after simplifying using RDP algorithm (right).</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ The original paper defines the first point as ***anchor*** and last point as ***
 
 There is this simple gif from [Mysid](https://en.wikipedia.org/wiki/User:Mysid) on RDP:
 
-![RDP gif]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/viz.gif)
+![RDP gif]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/viz.gif)
 
 In the worst case, this algorithm has a running time of $O(n^2)$ and in the best case, it has running time of $O(nlog ⁡n)$. [2](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm)
 
@@ -102,19 +102,19 @@ Here are some results from the above code:
 
 *Orange line: Result*
 
-![Masks ]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/1.png)
+![Masks ]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/1.png)
 
 Fig 3. RDP result for epsilon=0.1
 
-![Masks ]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/2.png)
+![Masks ]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/2.png)
 
 Fig 4. RDP result for epsilon=0.2
 
-![Masks ]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/3.png)
+![Masks ]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/3.png)
 
 Fig 5. RDP result for epsilon=0.5
 
-![Masks ]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/rdp_algorithm/sine.png)
+![Masks ]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/rdp_algorithm/sine.png)
 
 Fig 6. RDP result for sin function
 

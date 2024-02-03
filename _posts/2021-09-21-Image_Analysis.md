@@ -41,30 +41,30 @@ After georeferencing, the image and new image grid are overlaid. In order to cal
 In order to make visual interpretation and understanding of imagery easier, we perform different enhancements on an image. In raw imagery, the useful data often populates only a little portion
 of the available range of digital values (commonly 8 bits or 256 levels). We basically stretch the image histogram to use more available range and thus help locate targets. A histogram may be a graphical representation of the brightness values that comprise a picture . So if we plot it in a graph with brightness values in X-axis and frequency in Y-axis, we get a graph as shown in figure.
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/image_enhancement1.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/image_enhancement1.png)
 
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/image_enhancement2.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/image_enhancement2.png)
 
 **Histogram** can be positively or negatively skewed based on the frequency of pixel value. The negatively skewed histogram represents the higher number of higher pixel values while positively skewed represents the lower pixel values. The histogram can be used for thresholding operations.
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/skewness.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/skewness.png)
 
 Similarly we might have multiple peaks in the histogram in real world images. The multiple peaks in satellite images represents the multiple types of source available in the ground. For e.g. if a satellite image consists of water body and vegetation, then it will have multiple peaks in the histogram. So, if we select the proper band they can be separable using histogram only. Along with this, histogram of multispectral bands can be used since each region has different reflectivity in different bands resulting in different histograms of the same bodies.
 
 One of the simplest types of enhancement is a linear contrast stretch. Here we find the minimum and the maximum brightness values and then apply a transformation to stretch this range to fill the full range. This enhances the contrast in the image with light toned areas appearing lighter and dark areas appearing darker, making visual interpretation much easier.
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/image_enhancement3.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/image_enhancement3.png)
 
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/h_strech_1.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/h_strech_1.png)
 
 
 If the image is not uniformly distributed or if we need to enhance a certain target only we can use histogram-equalized stretch. Here we assign more display values to the frequently occurring portion of histogram. 
 
 For example, suppose we've a picture of the mouth of a river, and let the water portions of the image occupy the digital values from 40 to 76 out of the whole image histogram. If we wished to reinforce the detail within the water, perhaps to work out variations in sediment load, we could stretch only that tiny portion of the histogram represented by the water (40 to 76) to the total grey level range (0 to 255). All pixels below or above these values would be assigned to 0 and 255, respectively, and therefore the detail in these areas would be lost. However, the detail within the water would be greatly enhanced.
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/h_strech_2.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/h_strech_2.png)
 
 
 ### Spatial Filtering
@@ -75,7 +75,7 @@ A low-pass (smoothing) filter emphasizes larger, homogeneous areas of similar to
 
   a. Averaging linear filters: gives the average of the pixels contained in the neighborhood of the filter mask. For example: standard average  and weighted average filter.
 
-![Image Enhancement]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/filters.png)
+![Image Enhancement]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/filters.png)
 
   b. Order-statistics nonlinear filters: nonlinear spatial filters whose response is based on ordering (ranking) the pixels contained in the neighborhood. Examples include Max, Min, and Median filters.
 
@@ -132,7 +132,7 @@ $NDVI = \frac{NIR - Red}{NIR + RED}$
 
 Healthy vegetation (containing more chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue lights. This leads to higher NDVI for healthy vegetation and lower for unhealthy vegetation. The NDVI index is between [-1, 1].  This can be used to analyze the vegetation of an area over a time.
 
-![Reflections from vegetations]({{ site.url }}{{ site.baseurl }}/assets/images/remote-sensing-and-satellite-image/Satellite_Image_analysis/vegetation.png)
+![Reflections from vegetations]({{ site.url }}{{ site.baseurl }}/uploads/remote-sensing-and-satellite-image/Satellite_Image_analysis/vegetation.png)
 
 ## 4. Image Classification
 
