@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Writings"
-    url: /writing/
-  - title: "Certification"
-    url: /certification/
+  # - title: "Writings"
+  #   url: /writing/
+  # - title: "Certification"
+  #   url: /certification/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

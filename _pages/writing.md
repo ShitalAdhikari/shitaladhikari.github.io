@@ -1,5 +1,5 @@
 ---
-permalink: /writing/
+# permalink: /writing/
 ---
 # Satellite Imagery
 

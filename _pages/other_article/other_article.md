@@ -2,11 +2,13 @@
 permalink: /
 ---
 
-### About me
+# About me
 
-I am passionate about Scientific Machine Learning where I love to work on the application of the deep learning to improve the existing workflow. Currently I am working on the agentic LLM in Scientific Machine learning. Currently, I am working under the supervision of [Prof. Nikhil Muralidhar](https://sites.google.com/view/nikhil-muralidhar) in Stevens Institute of Technology. I am looking for Summer Internship for 2026. If there are any position you know, shoot me up in the mail.
+I am passionate about Scientific Machine Learning, particularly in applying deep learning to improve existing workflows. Currently, I am working on agentic LLMs in Scientific Machine Learning under the supervision of [Prof. Nikhil Muralidhar](https://sites.google.com/view/nikhil-muralidhar) at Stevens Institute of Technology.
 
-If you are looking for a passionate and skilled Machine Learning Engineer with expertise above technicalities, please feel free to reach out to me for collaboration, mentorship, or any exciting project opportunities.
+I am actively seeking a Summer Internship for 2026. If you know of any opportunities, please feel free to reach out to me via email.
+
+If you are looking for a passionate and skilled Machine Learning Researcher with expertise beyond technicalities, I would be glad to connect for collaboration, mentorship, or exciting project opportunities.
 
 # Publications
 

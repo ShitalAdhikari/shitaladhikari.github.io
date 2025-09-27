@@ -1,5 +1,5 @@
 ---
-permalink: /certification/
+# permalink: /certification/
 # carousels:
 #   - images: 
 #     - image: /uploads/slider/aerial_image_segmentation.png
