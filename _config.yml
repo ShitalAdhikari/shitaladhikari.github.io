@@ -96,15 +96,15 @@ author:
   name             : "Shital Adhikari"
   avatar           : /uploads/profile/profile.jpg
   bio              : ""
-  location         : "Kathmandu, Nepal."
+  location         : "New Jersey, US."
   email            :
   links:
-    - label: "shitaladhikari123@gmail.com"
+    - label: "sadhikar1@stevens.edu"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:shitaladhikari123@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:sadhikar1@steves.edu"
+    - label: "scholar"
+      icon: "fa-brands fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=ADgtxkwAAAAJ&hl=en&oi=ao"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
