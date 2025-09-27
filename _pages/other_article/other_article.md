@@ -14,9 +14,9 @@ Adhikari, **Shital**, & Ojha, V. P. Building Detection and Counting in Convolute
 
 Rijal, S., & Adhikari, **Shital**, Dahal, M., Awale, M. Whisper Finetuning on Nepali Language. *arXiv preprint arXiv:2411.12587*, 2024. [PDF](https://arxiv.org/abs/2411.12587)
 
-Gyawali, S., & Adhikari, **Shital**, Mandal, A., Dahal, M. Integrating Large Language Models for Monte Carlo Simulation of Chemical Reaction Networks. *arXiv preprint arXiv:2503.21178*, 2025. [PDF](https://arxiv.org/abs/2503.21178)
+Gyawali, S.,, Mandal, A., Dahal, M., Adhikari, **Shital** Integrating Large Language Models for Monte Carlo Simulation of Chemical Reaction Networks. *arXiv preprint arXiv:2503.21178*, 2025. [PDF](https://arxiv.org/abs/2503.21178)
 
-Ojha, V., & Adhikari, **Shital**, Shakya, P., Ghimire, K. SOMD 2025: Fine-tuning ModernBERT for In-and Out-of-Distribution NER and Relation Extraction of Software Mentions in Scientific Texts. In *Proceedings of the Fifth Workshop on Scholarly Document Processing (SDP 2025)*, 2025.
+Ojha, V., Shakya, P., Ghimire, K., & Adhikari, **Shital**, SOMD 2025: Fine-tuning ModernBERT for In-and Out-of-Distribution NER and Relation Extraction of Software Mentions in Scientific Texts. In *Proceedings of the Fifth Workshop on Scholarly Document Processing (SDP 2025)*, 2025.
 
 
     
