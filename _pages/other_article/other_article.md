@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-# About me
+<!-- # About me -->
 
 I am passionate about Scientific Machine Learning, particularly in applying deep learning to improve existing workflows. Currently, I am working on agentic LLMs in Scientific Machine Learning under the supervision of [Prof. Nikhil Muralidhar](https://sites.google.com/view/nikhil-muralidhar) at Stevens Institute of Technology.
 
